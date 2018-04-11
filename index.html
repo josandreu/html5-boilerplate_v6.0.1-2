@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Ejemplo plantilla Boilerplate</title>
+    <meta name="description" content="Plantilla Boilerplate">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -22,10 +23,18 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
+    <h1>Esto es un H1</h1>
+    <h2>Esto es un H2</h2>
     <p>Hello world! This is HTML5 Boilerplate.</p>
     <p>Ejemplo de párrafo</p>
+    <button>Click me</button>
+
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- 
+    Esta secuencia de abajo, lo que dice es:
+   Si el navegador puede cargar el objeto jQuery (que lo pilla de la url de arriba) no hagas nada, sino no lo puede cargar lo que hace es habilitar el script donde tenemos jQuery en la ruta local
+     -->
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
 
